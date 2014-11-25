@@ -8,7 +8,7 @@ cd bud-logger
 ./gyp_logger
 make -C out/ -j24
 cp -rf ./out/Release/logger.bud /some/where/logger.bud
-# Add `{tracing: {dso: '/some/where/logger.bud'}}` to your bud configuration
+# Add `{tracing: {dso: ['/some/where/logger.bud']}}` to your bud configuration
 ```
 
 #### LICENSE
